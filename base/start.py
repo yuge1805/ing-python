@@ -28,4 +28,38 @@ print(n)
 print(type(n))
 # isinstance
 print(isinstance(n, float))
+# str
+print(str(n))
 
+
+# 字符串
+s1 = "Hello"
+s2 = 'Hello'
+s3 = """
+    xxx
+    xxxx
+    xxxxx
+    xxxxxx
+"""
+
+# 转义字符
+s4 = 'It\'s very good'
+
+# 拼接字符串
+s5 = "Hello" "xxx"
+print(s5)
+
+s6 = "Hello" + "zzz"
+print(s6)
+
+# 拼接数值
+name = "yyy"
+age = 18
+print(name + str(age))
+
+# format
+s1 = "uuu"
+print("Hello %s" % s1)
+s2 = "ddd"
+print("Hello %s, %s" % (s1, s2))
+print(f"Hello {s1}, {s2}")
