@@ -1,19 +1,17 @@
-# 定义类（不推荐）
+# 定义类（不推荐动态定义属性）
 class Car:
     pass
 
 c1 = Car()
-print(c1)
-print(type(c1))
-print(type(c1.__dict__))
-
-# 动态定义属性
 c1.color = "red"
 c1.brand = "audi"
 c1.name = "X5"
 print(c1.name)
 print(c1.color)
 print(c1.__dict__)
+print(c1)
+print(type(c1))
+print(type(c1.__dict__))
 
 # 定义类
 class CarV1:
